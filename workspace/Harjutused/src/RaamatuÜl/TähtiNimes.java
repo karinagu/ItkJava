@@ -8,9 +8,9 @@ public class TähtiNimes {
 		// TODO Auto-generated method stub
 System.out.print("Please enter your first name and last name, separated by a space.");
 String nimi=TextIO.getlnString();
-nimend= nimi.indexOf(' ');
+int nimend= nimi.indexOf(' ');
 nimi.substring(1, 2);
-for (int i = 0; i < nimi.length(1); i++) {
+for (int i = 0; i < nimi.length(); i++) {
 	
 }
 
